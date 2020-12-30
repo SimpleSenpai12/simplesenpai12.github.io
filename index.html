@@ -23,40 +23,9 @@
             and <i>some</i> <a href="https://steamcommunity.com/id/SimpleSenpai12">Steam</a> games! I also do some
             comedy-type videos, as well as storytime and editing things.</p>
             <br>
-        <script>
-            var index = 1;
-            slideshow(index);
-
-            function slideNext(n) {
-                slideshow(index += n);
-            }
-
-            function slideNow(n) {
-                slideshow(index = n);
-            }
-
-            function slideshow(n) {
-                var i;
-                var pictures = document.getElementsByClassName("slides")
-                var dots = document.getElementsByClassName("slideDots")
-                if (n > pictures.length) {
-                    index = 1;
-                }
-                if (n < 1) {
-                    index = pictures.length;
-                }
-                for (x = 0; x < pictures.length; x++) {
-                    pictures[x].style.display = "none";
-                }
-                for (x = 0; x < dots.length; x++) {
-                    dots[x].className = dots[x].className.replace(" active", "");
-                }
-                pictures[index - 1].style.display = "block"
-                dots[index - 1].className += " active"
-                setTimeout(slideshow, 2500);
-            }
-        </script>
-    </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JSc-dTCt-Go" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     <footer>
         <h3>simplesenpai</h1>
         <hr>
