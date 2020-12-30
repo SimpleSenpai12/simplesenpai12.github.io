@@ -99,6 +99,21 @@ footer li {
   width: 20%;
 }
 
+body {
+  background-color: #2d8ac0;
+}
+
+table, td, th {
+  text-align: center;
+}
+tr {
+  border-color: #000000;
+  border-width: 4px;
+}
+tr:nth-child(even) {
+  background-color: cadetblue;
+}
+
 hr {
   border: none;
   height: 5px;
