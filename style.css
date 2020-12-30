@@ -87,11 +87,6 @@ footer {
   background-color: azure;
 }
 
-.code {
-  top: 280px;
-  background-color: azure;
-}
-
 footer ul {
   list-style-type: none;
   display: flex;
