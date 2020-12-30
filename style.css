@@ -87,6 +87,11 @@ footer {
   background-color: #3e60db;
 }
 
+.code {
+  top: 280px;
+  background-color: #3e60db;
+}
+
 footer ul {
   list-style-type: none;
   display: flex;
