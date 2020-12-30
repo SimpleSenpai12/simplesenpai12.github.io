@@ -106,10 +106,7 @@ body {
 table, td, th {
   text-align: center;
 }
-tr {
-  border-color: #000000;
-  border-width: 4px;
-}
+
 tr:nth-child(even) {
   background-color: cadetblue;
 }
