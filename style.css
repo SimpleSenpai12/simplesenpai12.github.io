@@ -1,0 +1,103 @@
+a img {
+    text-decoration: none;
+}
+a .link {
+    color: #7289DA;
+}
+
+.slide-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: #7289DA;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: black;
+    display: inline-block;
+    transition: 0.6 ease;
+    border-radius: 50%;
+}
+
+.active, .dot:hover {
+    background-color: #3e60db;
+}
+
+.middle {
+    width: 70%;
+    margin: auto;
+    background-color: #7289DA;
+}
+
+footer {
+    background-color: #2d3553;
+}
+
+.sidenav a {
+    position: absolute;
+    left: -150px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.sidenav a:hover {
+    left: 0px;
+}
+
+.beatmaps {
+    top: 40px;
+    background-color: #3e60db;
+}
+
+.subscribe {
+    top: 120px;
+    background-color: #3e60db;
+}
+
+.github {
+    top: 200px;
+    background-color: #3e60db;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer li {
+    width: 20%;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: #000000; /* old IE */
+    background-color: #000000; /* Modern Browsers */
+}

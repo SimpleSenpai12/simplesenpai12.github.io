@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleSenpai12 | Home</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="middle">
+        <h1 align="center">SimpleSenpai</h1>
+        <h2 align="center"><small>YouTuber | <i>Occasional</i> Comedian | Professional Idiot | Programmer</small></h2>
+        <div class="sidenav">
+            <a href="osu!beatmaps.html" class="beatmaps">osu! Beatmap Downloads</a>
+            <a href="https://tinyurl.com/simplesenpai" class="subscribe">My YouTube Channel</a>
+            <a href="https://github.com/SimpleSenpai12" class="github">My GitHub Account</a>
+        </div>
+        <hr>
+        <p class="text">Hey! I'm Simple, or SimpleSenpai, whatever you want to call me. I make YouTube videos and
+            play <a href="https://osu.ppy.sh/users/19456361">osu!</a>, <a href="https://mine.ly/SimpleSenpai.2">Minecraft</a>,
+            and <i>some</i> <a href="https://steamcommunity.com/id/SimpleSenpai12">Steam</a> games! I also do some
+            comedy-type videos, as well as storytime and editing things.</p>
+        <script>
+            var index = 1;
+            slideshow(index);
+
+            function slideNext(n) {
+                slideshow(index += n);
+            }
+
+            function slideNow(n) {
+                slideshow(index = n);
+            }
+
+            function slideshow(n) {
+                var i;
+                var pictures = document.getElementsByClassName("slides")
+                var dots = document.getElementsByClassName("slideDots")
+                if (n > pictures.length) {
+                    index = 1;
+                }
+                if (n < 1) {
+                    index = pictures.length;
+                }
+                for (x = 0; x < pictures.length; x++) {
+                    pictures[x].style.display = "none";
+                }
+                for (x = 0; x < dots.length; x++) {
+                    dots[x].className = dots[x].className.replace(" active", "");
+                }
+                pictures[index - 1].style.display = "block"
+                dots[index - 1].className += " active"
+                setTimeout(slideshow, 2500);
+            }
+        </script>
+    </div>
+    <footer>
+        <h3>simplesenpai</h1>
+        <hr>
+        osu! gradient logo by <a href="https://www.reddit.com/r/osugame/comments/ev7mxr/check_out_this_osu_logo_i_made/">u/660Bot</a>
+        <br>
+        website made with &#10094;3 by <a href="https://tinyurl.com/simplesenpai">simplesenpai</a>
+    </footer>
+</body>
+
+
+</html>
