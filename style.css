@@ -69,27 +69,27 @@ footer {
 
 .home {
   top: 40px;
-  background-color: #3e60db;
+  background-color: azure;
 }
 
 .beatmaps {
   top: 40px;
-  background-color: #3e60db;
+  background-color: azure
 }
 
 .subscribe {
   top: 120px;
-  background-color: #3e60db;
+  background-color: azure;
 }
 
 .github {
   top: 200px;
-  background-color: #3e60db;
+  background-color: azure;
 }
 
 .code {
   top: 280px;
-  background-color: #3e60db;
+  background-color: azure;
 }
 
 footer ul {
